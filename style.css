@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom, #4c1d95, #1f2937);
+  color: white;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+  background-color: #1f2937;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+body {
+  padding-top: 80px;
+}
+
+.logo {
+  height: 60px;
+}
+
+nav a {
+  color: #ec4899;
+  margin-left: 1rem;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.destaque {
+  text-align: center;
+  padding: 4rem 2rem;
+}
+
+#generos ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#generos a {
+  text-decoration: none;
+  color: #ec4899;
+}
+
+#generos a:hover {
+  text-decoration: underline;
+}
+
+.anime-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.anime-card {
+  width: 200px;
+  margin: 10px;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.anime-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.anime-card h3 {
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
+
+.anime-card .btn {
+  background-color: #ec4899;
+  color: white;
+  padding: 5px 10px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.anime-card .btn:hover {
+  background-color: #d13575;
+}
+
+footer {
+  background-color: #000;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+}
